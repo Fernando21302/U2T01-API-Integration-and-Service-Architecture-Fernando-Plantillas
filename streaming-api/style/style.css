@@ -1,0 +1,89 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  padding: 24px;
+  color: #222;
+}
+ 
+h1 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+ 
+#buscador {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+ 
+#buscador input {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+ 
+#buscador button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+ 
+#buscador button:hover {
+  background: #cc0000;
+}
+ 
+#estado {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 16px;
+}
+ 
+#contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+ 
+.tarjeta {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+ 
+.tarjeta img {
+  width: 100%;
+  display: block;
+}
+ 
+.info {
+  padding: 12px;
+}
+ 
+.info h2 {
+  font-size: 13px;
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+ 
+.info h2 a {
+  color: #222;
+  text-decoration: none;
+}
+ 
+.info h2 a:hover {
+  color: #ff0000;
+}
+ 
+.info p {
+  font-size: 12px;
+  color: #888;
+}
