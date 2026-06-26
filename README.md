@@ -1,7 +1,7 @@
 # U2T01: API Integration and Service Architecture
 ## ITIID 5 || AWOS || Fernando Josue Plantillas Jiménez
 
-### Le recomiendo iniciar estas paginas desde la carpeta U2T01 con Visual Code ya que las conxiones estan desde ahí, por ejemplo: /streaming-api/java/script.js
+### Le recomiendo iniciar estas paginas desde una carpeta que contenga adentro las cuatro apps web con Visual Code ya que las conxiones estan desde ahí, por ejemplo: /streaming-api/java/script.js
 
 ## APIs
 
