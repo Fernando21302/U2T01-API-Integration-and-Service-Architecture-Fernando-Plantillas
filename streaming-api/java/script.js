@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyCxjm926svsvJFwyETW6NxoGc0-9MkFGLg';
+const API_KEY = 'ponga la key aqui';
 const MAX_RESULTS = 20;
  
 async function buscarVideos(query) {
